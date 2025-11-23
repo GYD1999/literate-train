@@ -6,3 +6,4 @@ def Hano(N,Source,Target,Auxilirary):
           print(f"将盘子 {N} 从 {Source} 移动到 {Target}")
           Hano(N-1,Auxilirary,Target,Source)
 Hano(3,"A","C","B")
+print('down')
